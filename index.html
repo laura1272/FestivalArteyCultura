@@ -1,0 +1,256 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Feria de Arte y Cultura</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">MUSEO</a>
+          <a href="#secc2">PONENTES</a>
+          <a href="#secc3">LIBROS</a>
+          <a href="#secc4">CINEMATICAS</a>
+
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>MUSEO</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Museo del Louvre, ubicado en París, Francia, es uno de los museos de arte más grandes y famosos del mundo. Originalmente un palacio real, fue transformado en museo en 1793, durante la Revolución Francesa. Su vasta colección abarca más de 35,000 obras de arte, que incluyen piezas de la antigüedad hasta el siglo XXI.
+Entre sus exposiciones más destacadas se encuentran la Mona Lisa de Leonardo da Vinci, la Venus de Milo, y la Victoria de Samotracia. El Louvre está dividido en tres alas principales: la Denon, la Richelieu y la Sully.
+El museo también es famoso por su arquitectura, con una pirámide de vidrio en la entrada diseñada por el arquitecto Ieoh Ming Pei. Es uno de los destinos turísticos más visitados del mundo, recibiendo millones de visitantes cada año.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		       <h1>FERIA DE ARTE Y CULTURA</h1>
+		        <p>¡Bienvenidos al Festival de Arte y cultura del Louvre 2025! Un evento único que combina arte, literatura y cine en el corazón de París. Durante varios días, el Museo del Louvre se transforma en un espacio de intercambio cultural, donde escritores, ponentes y cineastas se reúnen para compartir sus conocimientos y pasiones.
+Disfruta de conferencias con renombrados autores y expertos que te transportarán a mundos literarios y artísticos fascinantes. Explora la feria de libros, donde podrás encontrar obras únicas y participar en firmas de autores. Además, no te pierdas nuestro festival cinematográfico, que presenta una selección de películas cautivadoras que exploran la historia, la cultura y el arte.
+Ven a sumergirte en una experiencia enriquecedora que celebra la creatividad en todas sus formas, ¡solo en el Museo del Louvre! ¡Visitanos de manera virtual (Da click a la imagen)!
+</p>
+		         <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="par-imgs-escritorio">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<a href="360visualizar.html">
+	        		<img src="imagenes/frame.jpg" title="frame">
+	        		</a>
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p></p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p></p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    			<div class="contenedor-imagen-secc1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<a href="360visualizar.html">
+	        		<img src="imagenes/frame.jpg" title="frame">
+	        		</a>
+    			</div>
+	      
+	        		<!--texto para la imagen-->
+	        		<p></p>
+    			</div>
+    		</div>
+
+    	</div>
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>PONENTES</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img1a.jpg" title="img1a">
+        		<!--texto para la imagen-->
+    		</div>
+    		    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    		<br><!--etiqueta para un brinco de renglón-->
+		 <p>Jorge Guerra es un investigador y escritor autodidacta español, reconocido por su enfoque en la historia alternativa y la divulgación histórica digital. A lo largo de su carrera, ha explorado temas como la influencia de la nobleza veneciana en la historia europea, desafiando las narrativas históricas convencionales. Guerra ha utilizado plataformas en línea para compartir sus investigaciones, convirtiéndose en un pionero de la divulgación histórica digital en España.  </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <p>Antony Cyril Sutton (1925-2002) fue un economista, historiador y escritor británico-estadounidense conocido por sus investigaciones sobre las élites económicas y políticas, así como por su crítica al capitalismo y al sistema global de poder. Sutton se especializó en el estudio de la historia secreta y las conexiones entre el poder financiero y los gobiernos, particularmente en temas como la Guerra Fría y el papel de las corporaciones internacionales en la política.
+
+            Uno de sus trabajos más influyentes es "Wall Street and the Bolshevik Revolution", donde argumenta que intereses financieros de Estados Unidos, particularmente en Wall Street, financiaron la Revolución Bolchevique en Rusia. También es famoso por su obra "The Secret History of the Anglo-American Establishment", que explora la influencia de las élites anglosajonas en la política mundial.
+
+            A lo largo de su carrera, Sutton destacó por desafiar las narrativas oficiales sobre los acontecimientos históricos, sugiriendo que muchas veces las élites han jugado un papel clave en los grandes eventos históricos, a menudo en detrimento de la democracia y la transparencia.
+</p>
+
+ <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Marcello Gullo es un escritor, investigador y conferencista italiano, conocido por su enfoque crítico sobre la historia y la política global. Ha trabajado en temas relacionados con el poder de las élites financieras, las sociedades secretas y las influencias ocultas en los eventos históricos. Gullo ha destacado por sus análisis sobre el control de la economía mundial y la manipulación de los gobiernos por parte de poderosas corporaciones e instituciones.
+Uno de sus trabajos más conocidos es el libro **"El Imperio de la Mentira: Cómo las Élites Manipulan la Historia y la Economía Global"**, en el que examina cómo las élites globales han influido en la política, la economía y la historia, manteniendo una agenda secreta que beneficia a unos pocos en detrimento de la mayoría. A través de sus publicaciones y conferencias, Gullo busca despertar la conciencia sobre el papel oculto que estas élites juegan en la conformación del mundo actual.
+Su estilo es a menudo polémico, ya que desafía las narrativas históricas convencionales y sostiene que gran parte de lo que se sabe sobre la historia y las estructuras de poder está manipulado para servir a intereses particulares. </p>
+ <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Juan Miguel Zunzunegui es un escritor e historiador español conocido por su trabajo en el campo de la historia contemporánea y la política. Se especializa en analizar las estructuras de poder, los sistemas económicos y las dinámicas de control que operan en la sociedad. Su enfoque se caracteriza por un análisis crítico de las élites y de las narrativas históricas dominantes, con un interés particular por desentrañar los intereses ocultos que influyen en los grandes acontecimientos históricos.
+Zunzunegui es autor de varios libros en los que aborda temas como el poder global, las conspiraciones, las sociedades secretas y la manipulación de la historia. A través de sus investigaciones, busca ofrecer una perspectiva alternativa y más profunda de los hechos históricos, desafiando las versiones oficiales que, según él, ocultan la verdad detrás de los intereses de las élites.
+A lo largo de su carrera, Zunzunegui ha ganado una audiencia interesada en los estudios sobre las élites y las estructuras de poder ocultas que operan a nivel mundial, con un enfoque que desafía las visiones tradicionales de la historia y la política.</p>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>LIBROS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		              <br><!--etiqueta para un brinco de renglón-->
+
+		        		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.jpg" title="img2">
+        		<!--texto para la imagen-->
+        		<br><!--etiqueta para un brinco de renglón-->
+
+    		</div>
+    		<div class="texto-secc">
+		        <p>1984 de George Orwell es una distopía inquietante que explora un futuro totalitario donde el gobierno, encabezado por el omnipresente Partido y su líder, el Gran Hermano, controla absolutamente todos los aspectos de la vida de los ciudadanos. La historia sigue a Winston Smith, un hombre que vive bajo constante vigilancia, donde hasta los pensamientos son controlados por la temida Policía del Pensamiento.
+Winston trabaja reescribiendo la historia para que coincida con la versión oficial impuesta por el Partido, pero comienza a cuestionar la realidad que lo rodea. A pesar de la opresión, busca la libertad en un amor prohibido con Julia, y en su deseo de rebelarse contra el sistema. Sin embargo, en este mundo, la verdad no tiene valor, y la manipulación de la realidad es la norma.
+La novela es una potente reflexión sobre el poder, la libertad y la manipulación de la información, dejando una sensación perturbadora sobre el control absoluto y la vigilancia omnipresente. 1984 nos recuerda lo que puede suceder cuando la libertad individual se ve sacrificada en nombre del control totalitario.
+ </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Un Mundo Feliz de Aldous Huxley es una fascinante y escalofriante visión de un futuro aparentemente perfecto, pero profundamente deshumanizado. En esta distopía, la humanidad vive en una sociedad altamente controlada donde la felicidad es impuesta a través de la manipulación genética, la constante diversión y el consumo de una droga llamada *soma*, que suprime cualquier sentimiento negativo o perturbador.
+Los individuos son condicionados desde su nacimiento para aceptar su lugar en la jerarquía social, eliminando la posibilidad de la individualidad o la libre elección. En este mundo, el sacrificio de la libertad y la verdad se justifica por una paz superficial y una estabilidad sin conflictos. Sin embargo, personajes como Bernard Marx, un hombre insatisfecho con la perfección impuesta, y John, el "salvaje" que ha vivido fuera de esta sociedad controlada, comienzan a cuestionar la esencia de su mundo feliz.
+A través de esta provocadora novela, Huxley plantea preguntas profundas sobre el precio de la comodidad, el control social, y la verdadera libertad. *Un Mundo Feliz* nos hace reflexionar sobre los peligros de una sociedad que antepone la estabilidad sobre la autenticidad humana, una advertencia que resuena más que nunca en la era contemporánea.
+</p>
+ <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>The Rape of the Mind: The Psychology of Thought de Joost Meerloo es un análisis impactante sobre cómo las técnicas de control mental, la manipulación psicológica y la tortura pueden despojar a las personas de su libertad mental y su capacidad de pensar de manera autónoma. A lo largo del libro, Meerloo examina cómo los regímenes totalitarios, las dictaduras y las fuerzas de opresión utilizan tácticas de lavado de cerebro para dominar la mente humana, destruyendo la individualidad y la capacidad crítica de los ciudadanos.
+A través de ejemplos históricos y análisis profundos, el autor ilustra cómo el control del pensamiento puede ser tan devastador como la violencia física, y cómo las víctimas de este "asalto" a la mente pierden su capacidad para pensar, cuestionar y resistir. Pero más allá de la política, el libro también aborda cómo el mundo moderno, con sus medios de comunicación masivos, la publicidad y el conformismo social, puede ejercer una forma más sutil de manipulación sobre las mentes de las personas.
+The Rape of the Mind es un llamado a la reflexión sobre cómo nuestras ideas y creencias pueden ser moldeadas y controladas, un recordatorio de la importancia de la autonomía mental y la libertad de pensamiento frente a las fuerzas que buscan invadirlas y controlarlas.</p>
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Confesiones de un sicario económico de John Perkins es un revelador testimonio sobre cómo las grandes corporaciones, gobiernos y bancos internacionales manipulan las economías de países en desarrollo para su propio beneficio. En este impactante libro, Perkins narra su experiencia personal como "sicario económico", una especie de consultor corporativo que ayudaba a engañar a los gobiernos de países pobres para que se endeudaran con préstamos gigantescos e impagables, a cambio de que sus recursos naturales fueran explotados por empresas multinacionales.
+A través de su historia, Perkins desvela cómo este sistema económico global está diseñado para mantener a los países en una red de dependencia, control y explotación, beneficiando a unos pocos mientras empobrece a las masas. Su relato es un llamado de atención sobre las prácticas corruptas que subyacen en las políticas económicas internacionales, y cómo las decisiones aparentemente benignas tienen consecuencias devastadoras para las naciones y sus poblaciones.
+Confesiones de un sicario económico es un grito de alerta sobre las oscuras y a menudo invisibles fuerzas que moldean nuestro mundo, desafiando la narrativa oficial y cuestionando los verdaderos motores del poder global. Un libro imprescindible para quienes buscan entender las sombras del sistema económico actual.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>CINEMATICA</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        	<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.jpg" title="img3">
+    		</div>
+    		<br><!--etiqueta para un brinco de renglón-->
+		        <p>"Land of the Blind" (2006) es una película dirigida por Robert Edwards y protagonizada por Ralph Fiennes y Donald Sutherland. Esta historia, cargada de simbolismo, tiene una trama que explora temas de poder, control y la manipulación política en una sociedad totalitaria. El guion se centra en un dictador ciego que gobierna su país con mano de hierro y en un grupo de personas que comienzan a cuestionar el sistema, lo que genera una reflexión sobre las estructuras de poder y la resistencia.
+El creador, Robert Edwards, tiene un estilo visual distintivo en sus proyectos, usando escenarios y personajes que invitan a una reflexión profunda sobre la naturaleza humana y las dinámicas de control social. La película, aunque no muy conocida, destaca por su atmósfera sombría y la tensión psicológica entre los personajes, siendo una especie de alegoría moderna sobre la opresión.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>"Zeitgeist" (2007) es un documental dirigido por Peter Joseph, que se ha vuelto ampliamente conocido por su enfoque crítico hacia las estructuras sociales, religiosas y económicas contemporáneas. El título "Zeitgeist" se traduce como "el espíritu del tiempo", y el documental busca cuestionar y desafiar las narrativas oficiales que influyen en la sociedad moderna.
+El creador, Peter Joseph, es un cineasta y activista conocido por su crítica a la corrupción del sistema económico global y el control que ejercen las élites sobre las masas. Con "Zeitgeist", Joseph presenta una serie de teorías controvertidas, abordando temas como la manipulación de las religiones, el sistema financiero y las conspiraciones globales. Su objetivo es abrir los ojos del público a las fuerzas que, según él, operan en las sombras, y hacer que las personas cuestionen el mundo en el que viven.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p> "The Money Masters" es un documental revelador que te lleva a un fascinante viaje a través de la historia oculta de los bancos centrales, mostrándote cómo los poderosos actores financieros han tenido un control absoluto sobre la creación de dinero. El video explora cómo desde el siglo XIX, las grandes familias bancarias han manipulado el sistema económico mundial, llevando a países enteros a la deuda y afectando las vidas de millones de personas. A través de un análisis exhaustivo, "The Money Masters" revela cómo la creación del dinero ha sido centralizada en manos de unos pocos, alimentando una máquina económica que solo favorece a las élites.
+Con gráficos claros, entrevistas y una narrativa estructurada, el documental hace que el complejo mundo de las finanzas sea comprensible para cualquier espectador. Si te interesa entender cómo funcionan realmente los bancos centrales y cómo sus decisiones impactan directamente tu vida diaria, "The Money Masters" es una obra que cambiará tu forma de ver la economía global. Una llamada de atención sobre el poder invisible que gobierna el dinero y cómo se han tejido las redes que mantienen este sistema en pie.</p>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<br><!--etiqueta para un brinco de renglón-->
+		        <h1>TRAILERS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+	<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/qr-code.jpg" title="qr-code">
+    		</div>
+		        <p>Puedes ver todo lo que te espera en este gran festival con nuestros vídeos.</p>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
